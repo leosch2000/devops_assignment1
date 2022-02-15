@@ -110,13 +110,13 @@ components:
             $ref: '#/components/schemas/GradeRecord'
       example:
         student_id: 0
-        last_name: last_name
-        first_name: first_name
+        last_name: Henk
+        first_name: Janssen
         gradeRecords:
         - grade: 5.5
           subject_name: calculus
-        - grade: 5.5
-          subject_name: calculus
+        - grade: 10
+          subject_name: introduction to python
     GradeRecord:
       required:
       - grade
