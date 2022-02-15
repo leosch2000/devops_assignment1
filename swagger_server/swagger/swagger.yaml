@@ -40,7 +40,7 @@ paths:
         "400":
           description: invalid ID
         "404":
-          description: not foundddddd
+          description: not found
       x-openapi-router-controller: swagger_server.controllers.default_controller
     delete:
       summary: gets student
@@ -62,7 +62,7 @@ paths:
         "400":
           description: invalid ID
         "404":
-          description: nottttt found
+          description: not found
       x-openapi-router-controller: swagger_server.controllers.default_controller
   /student:
     post:
